@@ -68,7 +68,7 @@ Accept the installation of all the dependencies.<br>
 ```cmd
 $ ./build_spgwu
 ```
-8. Now  to start the SPGWU, get the configuration file “ spgwu_u.conf ”. In the same folder of the config file :
+8. Now  to start the SPGWU, get the configuration file “ spgw_u.conf ”. And run the following commande from where you put the spgw_u.conf file :
 ```cmd
 $ sudo spgwu –c spgw_u.conf
 ```
