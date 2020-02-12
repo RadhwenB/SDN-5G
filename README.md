@@ -7,6 +7,23 @@ Packet Forwarding Control Protocol (PFCP) is a 3GPP protocol used between the co
 
 The content of the project is a SDN controller that is able to communicate with the remote user plane elements via the PFCP protocol.
 
+### Project Structure
+
+    .
+    ├── pfcp5g                  # Test files (alternatively `spec` or `tests`)
+    │   ├── .vscode             # Load and stress tests
+    │   ├── __pycache__         # End-to-end, integration tests (alternatively `e2e`)
+    │   |── app                 # Unit tests
+    |   |__ venv
+    |   |__ dropAll.py
+    |   |__ drop_all.py
+    |   |__ pfcp5g.py
+    |   |__ pfcp5g.pyc
+    |   |__ showAssociations.py
+    |   |__ showSessions.py
+    |
+    └── README.md
+
 
 ### Installation of the Open Air Interface SPGW-U:
 1. Install python 3.7 :
