@@ -10,17 +10,29 @@ The content of the project is a SDN controller that is able to communicate with 
 ### Project Structure
 
     .
-    ├── pfcp5g                  # Test files (alternatively `spec` or `tests`)
-    │   ├── .vscode             # Load and stress tests
-    │   ├── __pycache__         # End-to-end, integration tests (alternatively `e2e`)
-    │   |── app                 # Unit tests
-    |   |__ venv
-    |   |__ dropAll.py
-    |   |__ drop_all.py
-    |   |__ pfcp5g.py
-    |   |__ pfcp5g.pyc
-    |   |__ showAssociations.py
-    |   |__ showSessions.py
+    ├── pfcp5g                   
+    │   ├──                    
+    │   ├── ...		            
+    │   ├── app                 
+    │   │   ├── ...
+    │	│	├── TLV.py                   # Parsing library
+    │	│	├── models.py                # Define the database structure
+    │	│	├── pfcp.py            		 # Class for the pfcp packets
+    │	│	├── pfcp_types.py            # Define all the predifined pfcp message types and information elements types
+    │	│	├── request_handler.py 		 # Handle received pfcp requests  
+    │	│	├── routes.py 				 # Northbound functions (flask server REST API)
+    │	│	├── sdn5g.db 				 # File of Alchemy local database
+    │	│	├── utils.py 				 # Utilities functions
+    │	│	└──...
+    │	│	
+    |   ├── 
+    │   ├── dropAll.py              	 # Purg the local database 				 
+    │   ├── pfcp5g.py 				 	 # Flask application file 
+    │   ├── showAssociations.py 		 # Display associations in the database using python CLI
+    │   ├── showSessions.py 			 # Display sessions in the database CLI
+    │   └── ...
+    │
+    ├── spgw_u.conf 					 # SPGW_U configuration file
     |
     └── README.md
 
