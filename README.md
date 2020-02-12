@@ -15,15 +15,15 @@ The content of the project is a SDN controller that is able to communicate with 
     │   ├── ...		            
     │   ├── app                 
     │   │   ├── ...
-    │	│	├── TLV.py                   # Parsing library
-    │	│	├── models.py                # Define the database structure
-    │	│	├── pfcp.py            	     # Class for the pfcp packets
-    │	│	├── pfcp_types.py            # Define all pfcp message types and information element types
-    │	│	├── request_handler.py 	     # Handle received pfcp requests  
-    │	│	├── routes.py 		     # Northbound functions (flask server REST API)
-    │	│	├── sdn5g.db   		     # File of Alchemy local database
-    │	│	├── utils.py   		     # Utilities functions
-    │	│	└──...
+    │	│   ├── TLV.py                   # Parsing library
+    │	│   ├── models.py                # Define the database structure
+    │	│   ├── pfcp.py            	     # Class for the pfcp packets
+    │	│   ├── pfcp_types.py            # Define all pfcp message types and information element types
+    │	│   ├── request_handler.py 	     # Handle received pfcp requests  
+    │	│   ├── routes.py 		     # Northbound functions (flask server REST API)
+    │	│   ├── sdn5g.db   		     # File of Alchemy local database
+    │	│   ├── utils.py   		     # Utilities functions
+    │	│   └──...
     │	│	
     |   ├── 
     │   ├── dropAll.py              	    # Purg the local database 				 
