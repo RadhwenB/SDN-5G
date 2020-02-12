@@ -120,8 +120,6 @@ For example, if you want to send a heartbeat to the SPGW-U, you should only incl
 
 
 ### Authors:
-- [PAPAGORA Niki](https://www.linkedin.com/in/niki-papagora-467b5b184/)
-- [ALIOUI Dhiaeddine](https://www.linkedin.com/in/dhiaeddine-alioui/)
-- [BOUAOUN Radhwen](https://www.linkedin.com/in/radhwen-bouaoun/)
-
+[ALIOUI Dhiaeddine](https://www.linkedin.com/in/dhiaeddine-alioui/) | [BOUAOUN Radhwen](https://www.linkedin.com/in/radhwen-bouaoun/) | [PAPAGORA Niki](https://www.linkedin.com/in/niki-papagora-467b5b184/)
+ 
 # SDN-5G
